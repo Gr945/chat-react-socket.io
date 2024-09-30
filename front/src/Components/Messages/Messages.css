@@ -1,0 +1,33 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid green;
+    padding: 10px;
+    overflow: hidden;
+    gap: 5px;
+    margin-bottom: 70px;
+    background-color: lightseagreen;
+}
+
+.mes {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     padding: 2px 5px;
+     border-radius: 5px;
+}
+.me {
+    justify-content: end;
+    color:rgb(230, 29, 29);
+}
+
+.user {
+    color:rgb(29, 59, 230);
+
+}
+
+.text {
+    border-radius: 10px;
+    padding: 5px;
+    background: wheat;
+}
